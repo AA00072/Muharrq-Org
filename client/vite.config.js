@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
  
   ],
-  base:"/Muharrq-Org-Demo",
+  base:"/Muharrq-Org-Demo/",
 })
