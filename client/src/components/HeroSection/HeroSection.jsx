@@ -4,7 +4,7 @@ const HeroSection = () => {
     return (
         <div className="relative w-full h-[400px] flex items-center justify-center">
             {/* Hero Image */}
-            <img src="../../../public/assets/Hero.png" alt="Hero Banner"className="absolute inset-0 w-full h-full object-cover" />
+            <img src="/assets/Hero.png" alt="Hero Banner"className="absolute inset-0 w-full h-full object-cover" />
 
             {/* Overlay */}
             <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-center text-white px-4">
