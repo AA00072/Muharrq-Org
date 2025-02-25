@@ -21,7 +21,7 @@ const MenuOverlay = ({ isOpen, onClose }) => {
                 <FaTimes />
             </button>
             <div className="grid grid-cols-3 gap-6 text-center">
-                <Link to="/home" className="bg-yellow-500 text-white py-4 px-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105">Home</Link>
+                <Link to="/" className="bg-yellow-500 text-white py-4 px-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-105">Home</Link>
                 <Link to="/projects" className="border-2 border-gray-400 py-4 px-6 rounded-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105">Projects</Link>
                 <Link to="/about" className="border-2 border-gray-400 py-4 px-6 rounded-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105">About</Link>
                 <Link to="/donations" className="border-2 border-gray-400 py-4 px-6 rounded-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105">Donations</Link>
